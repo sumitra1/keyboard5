@@ -2,6 +2,7 @@
 
 
 
+
 html, body {
   font-family: 'Varela', sans-serif;
   display: flex;
@@ -30,8 +31,8 @@ html, body {
 .key-container {
   display: grid;
   grid-template-rows: repeat(7, auto);
-  border: 1px solid #cccccc;
-  box-shadow: inset 0px 2px 2px 0px #8c8c8c, inset 2px 0px 2px 0px #8c8c8c, inset -2px 2px 2px 0px #8c8c8c, inset 0px -2px 2px 0px #8c8c8c ;
+  border: 1px solid #8c8c8c;
+  box-shadow: inset 0px 2px 2px 0px #8c8c8c, inset 2px 0px 2px 0px#8c8c8c, inset -2px 2px 2px 0px #8c8c8c, inset 0px -2px 2px 0px #8c8c8c;
   width: 780px;
   height: 330px;
   margin: 3.5% 0 0 0;
@@ -63,7 +64,6 @@ html, body {
   justify-content: center;
   align-items: flex-end;
   background: #202124;
-;
   border-radius: 5px;
   border: 2px solid black; 
   padding: 0;
@@ -87,8 +87,7 @@ html, body {
   margin: 0 0 0 4%;
 }
 
-.sqr
--key-cont {
+.square-key-cont {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,8 +99,7 @@ html, body {
   font-size: 0.9em;
 }
 
-.sqr
--content {
+.square-content {
   height: 100%;
 }
 
